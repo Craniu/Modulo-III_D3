@@ -1,8 +1,8 @@
     
 //Requerimiento 2.1 
-//No entendi lo requerido y con los elementos juntos de los requerimientos 2 y 3 juntos
-//en una hoja de js no funciona ya que tiene error por que los elementos de un html no estan en el otro.
-//asi que hice lo que creo entendi e intente hacerlo funcionar con lo que encontre.
+//No entendi lo requerido y con los elementos de los requerimientos 2 y 3 juntos en una 
+//hoja de js no funciona ya que tiene error por que los elementos de un html no estan en el otro.
+//asi que hice lo que creo que entendi e intente hacerlo funcionar con lo que encontre.
 if (document.getElementById("ele1")){
     const ele = document.getElementById("ele1");
 ele.addEventListener("click", (event) => pintar(event, 'yellow'))
